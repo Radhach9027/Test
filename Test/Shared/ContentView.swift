@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-        Text("one")
-        
-        Button("Press me") {
-            debugPrint("Awwwwwwwwwwww...")
+        VStack {
+            Text("Hello, world!")
+            Text("one")
+            
+            Button("Press me") {
+                debugPrint("Awwwwwwwwwwww...")
+            }
         }
         Text("two")
     }
