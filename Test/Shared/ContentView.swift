@@ -20,6 +20,10 @@ struct ContentView: View {
             Button("Press me twice") {
                 debugPrint("Awwwwwwwwwwww...")
             }
+            
+            Button("Press me thrice") {
+                debugPrint("Awwwwwwwwwwww...")
+            }
         }
         Text("two")
     }
